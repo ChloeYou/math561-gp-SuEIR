@@ -2,7 +2,7 @@
 
 This repository contains work for the UBC 2022W Math 561 group project done by Matt and Chloe. 
 
-The project aims to understand the infection dynamics of COVID-19 through the proposed SuEIR Model proposed by [Zou et al. 2020.](https://www.medrxiv.org/content/10.1101/2020.05.24.20111989v1) We will create simulations with minor perturbations to examine the bias of the estimated parameter values of the proposed model. The majoirty of the code will be implemented in Python, with the exception that the traditional ODE being implemented in MATLAB. 
+The project aims to understand the infection dynamics of COVID-19 through the proposed SuEIR Model proposed by [Zou et al. 2020.](https://www.medrxiv.org/content/10.1101/2020.05.24.20111989v1) We will create simulations with minor perturbations to examine the bias of the estimated parameter values of the proposed model. The majority of the code will be implemented in Python, with the exception that the traditional ODE being implemented in MATLAB. 
 
 Model parameters include $\beta$ that denotes the contact rate between the susceptible and “infected” groups (including both exposed and infectious compartments), $\sigma$ which denotes the ratio of cases in the exposed compartments that are either confirmed as infectious or dead/recovered without confirmation, $\mu$ the discovery rate of the infected cases, and $\gamma$ which denotes the transition rate between the $I$ and $R$ compartments.
 
